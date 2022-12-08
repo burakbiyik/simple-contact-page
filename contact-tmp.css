@@ -1,0 +1,78 @@
+.container {
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 820px;
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+.contact {
+    width: 320px;
+    height: 500px;
+    border-radius: 30px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(255, 178, 62);
+    position: relative;
+}
+.contactForm {
+    width: 500px;
+    display: flex;
+}
+.contact .left {
+    display: inline-block;
+    margin: 10px;
+}
+.contactForm .right {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+ul {
+    list-style: none;
+}
+.socialMedia ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.fa {
+    font-size: 18px;
+    color:whitesmoke;
+}
+.fa:hover {
+    cursor: pointer;
+}
+.right form input,textarea {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 380px;
+    border: 0px;
+    font-size: 14px;
+}
+.right button {
+    margin: 10px;
+    padding: 10px;
+    max-width: 400px;
+    border-radius: 5px;
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: orange;
+    font-size: 14px;
+}
+.quarter-circle-bottom-right{
+    width: 140px;
+    height: 140px;
+    background: rgb(255, 217, 0);
+    border-radius: 160px 0 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-end-end-radius: 30px;
+    border-left: 20px solid rgb(255, 153, 0);
+    border-top: 20px solid rgb(255, 153, 0);
+}
