@@ -290,3 +290,13 @@ textarea {
 textarea:focus {
     outline-color: orange;
 }
+.quarter-circle-bottom-right {
+    width: 120px;
+     height: 120px;
+     background: yellow;
+     border-top: solid 15px orange;
+     border-left: solid 15px orange;
+     border-radius: 130px 0 10px 0;
+     -moz-border-radius: 130px 0 10px 0;
+     -webkit-border-radius: 130px 0 10px 0;
+}
